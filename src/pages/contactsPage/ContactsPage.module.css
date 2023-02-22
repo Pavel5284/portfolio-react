@@ -1,0 +1,102 @@
+/*skills-page and contactsPage-page*/
+
+
+.contacts__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.content_list {
+    margin: 0 auto;
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 40px;
+}
+
+.content_list a {
+    color: var(--accent);
+}
+
+.content_list__item {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content_list__item p + p {
+    margin-top: 0.5em;
+}
+.contact__form {
+    width: 60%;
+    padding: 60px 40px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.contact__form_title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: var(--accent);
+}
+.contact__form_box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.contact__form_input{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    border: 1px solid var(--accent);
+    border-radius: 30px;
+    padding: 0 24px;
+    margin-bottom: 30px;
+}
+.contact__form_textarea{
+    width: 100%;
+    display: block;
+    resize: none;
+    height: 200px;
+    background-color: transparent;
+    border: 1px solid var(--accent);
+    border-radius: 30px;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+.btn {
+    display: inline-block;
+    height: 48px;
+    padding: 12px 28px;
+
+    border-radius: 5px;
+    background-color: var(--accent);
+    color: var(--white);
+    letter-spacing: 0.15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 0.2s ease-in;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active{
+    position: relative;
+    top: 2px;
+}
+
+@media (max-width: 900px) {
+    .contact__form_box {
+        flex-wrap: wrap;
+
+    }
+    .contact__form {
+        width: 100%;
+    }
+}
