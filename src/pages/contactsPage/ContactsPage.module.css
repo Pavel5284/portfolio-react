@@ -90,6 +90,12 @@
     position: relative;
     top: 2px;
 }
+.btn:disabled {
+    opacity: 0.5;
+    cursor: progress;
+    position: relative;
+    top: 0;
+}
 
 @media (max-width: 900px) {
     .contact__form_box {
