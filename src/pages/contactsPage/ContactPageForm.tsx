@@ -4,10 +4,11 @@ import style from "./ContactsPage.module.css";
 import {formAPI} from "../../api/api";
 import {useState} from "react";
 import {AxiosError} from "axios";
-import ErrorSnackbar from "../../components/errorSnackbar/errorSnackbar";
+import CustomizedSnackbar from "../../components/CustomizedSnackbar/CustomizedSnackbar";
 
 export const ContactsForm = () => {
     const [status, setStatus] = useState(false)
+    const [isSend, setIsSend] = useState(false)
     const [networkError, setNetworkError] = useState<null | string>(null)
     // Pass the useFormik() hook initial form values and a submit function that will
     // be called when the form is submitted
@@ -39,6 +40,7 @@ export const ContactsForm = () => {
                 onSubmitProps.resetForm({})
                 //  onSubmitProps.setStatus({success: true})
                 setNetworkError(null)
+                setIsSend(true)
 
             } catch (errors) {
                 let err = errors as AxiosError
@@ -108,7 +110,7 @@ export const ContactsForm = () => {
                 disabled={status}
                 className={style.btn} type="submit">Send Message
             </button>
-            <ErrorSnackbar networkError={networkError} setNetworkError={setNetworkError}/>
+            <CustomizedSnackbar networkError={networkError} setNetworkError={setNetworkError} isSend={isSend} setIsSend={setIsSend}/>
         </form>
 
 

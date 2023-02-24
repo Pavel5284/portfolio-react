@@ -5,6 +5,10 @@ import linkedin from "../../img/icons/linkedIn.svg";
 import React from "react";
 import style from './Footer.module.css'
 import commonStyles from '../../styles/mainStyles.module.css'
+import {VkSvgComponent} from "../iconsComponents/VkSvgComponent/VkSvgComponent";
+import {InstagramSvgComponent} from "../iconsComponents/InstagramSvgComponent/InstagramSvgComponent";
+import {GitHubSvgComponent} from "../iconsComponents/GitHubSvgComponent/GitHubSvgComponent";
+import {LinkedinSvgComponent} from "../iconsComponents/LinkedinSvgComponent/LinkedinSvgComponent";
 
 export const Footer = () => {
     return (
@@ -12,24 +16,24 @@ export const Footer = () => {
             <div className={commonStyles.container}>
                 <div className={style.footer__wrapper}>
                     <ul className={style.social}>
-                        <li className={style.social__item}>
+                        <li className={style.social__item} >
                             <a href="#!">
-                                <img src={vk} alt="vk link"/>
+                                <VkSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
                             <a href="#!">
-                                <img src={instagram} alt="instagram link"/>
+                                <InstagramSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
                             <a href="#!">
-                                <img src={github} alt="gitHub link"/>
+                                <GitHubSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
                             <a href="#!">
-                                <img src={linkedin} alt="linkedIn link"/>
+                                <LinkedinSvgComponent/>
                             </a>
                         </li>
                     </ul>

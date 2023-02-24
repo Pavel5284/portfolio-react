@@ -11,17 +11,19 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
 ) {
     return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
-type ErrorSnackbarPropsType= {
+type CustomizedSnackbarPropsType= {
     networkError: string | null
     setNetworkError: Dispatch<SetStateAction<string | null>>
+    isSend: boolean
+    setIsSend: Dispatch<SetStateAction<boolean>>
 }
 
-export default function ErrorSnackbar(props: ErrorSnackbarPropsType) {
-    const [open, setOpen] = React.useState(false);
+export default function CustomizedSnackbar(props: CustomizedSnackbarPropsType) {
+  /*  const [open, setOpen] = React.useState(false);
 
     const handleClick = () => {
         setOpen(true);
-    };
+    };*/
 
     const handleClose = (event?: React.SyntheticEvent | Event, reason?: string) => {
         if (reason === 'clickaway') {
@@ -29,14 +31,25 @@ export default function ErrorSnackbar(props: ErrorSnackbarPropsType) {
         }
 
         props.setNetworkError(null);
+        props.setIsSend(false)
     };
-    const isOpen = props.networkError !== null
+    const isOpenError = props.networkError !== null
 
     return (
-            <Snackbar open={isOpen} autoHideDuration={6000} onClose={handleClose}>
-                <Alert onClose={handleClose} severity="error" sx={{ width: '100%' }}>
+        <>
+            <Snackbar open={isOpenError} autoHideDuration={5000} onClose={handleClose}>
+                <Alert onClose={handleClose} severity="error" sx={{ width: '100%' }} >
                     {props.networkError}
                 </Alert>
             </Snackbar>
+            <Snackbar open={props.isSend} autoHideDuration={5000} onClose={handleClose}>
+                <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
+                    Message send
+                </Alert>
+            </Snackbar>
+        </>
+
+
     );
 }
+

@@ -17,6 +17,13 @@
     column-gap: 30px;
     align-items: center;
 }
+.social__item a:first-child {
+    color: white;
+
+}
+.social__item a:first-child:hover {
+    color: #5C62EC;
+}
 
 .copyright {
     font-size: 16px;
