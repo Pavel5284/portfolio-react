@@ -17,22 +17,22 @@ export const Footer = () => {
                 <div className={style.footer__wrapper}>
                     <ul className={style.social}>
                         <li className={style.social__item} >
-                            <a href="#!">
+                            <a href="https://vk.com/pavelniko">
                                 <VkSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
-                            <a href="#!">
+                            <a href="https://instagram.com/pavel528418">
                                 <InstagramSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
-                            <a href="#!">
+                            <a href="https://github.com/Pavel5284">
                                 <GitHubSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
-                            <a href="#!">
+                            <a href="#">
                                 <LinkedinSvgComponent/>
                             </a>
                         </li>
