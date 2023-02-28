@@ -5,6 +5,7 @@ import {VkSvgComponent} from "../iconsComponents/VkSvgComponent/VkSvgComponent";
 import {InstagramSvgComponent} from "../iconsComponents/InstagramSvgComponent/InstagramSvgComponent";
 import {GitHubSvgComponent} from "../iconsComponents/GitHubSvgComponent/GitHubSvgComponent";
 import {LinkedinSvgComponent} from "../iconsComponents/LinkedinSvgComponent/LinkedinSvgComponent";
+import {TelegramSvgComponent} from "../iconsComponents/TelegramSvgComponent/TelegramSvgComponent";
 
 export const Footer = () => {
     return (
@@ -13,22 +14,27 @@ export const Footer = () => {
                 <div className={style.footer__wrapper}>
                     <ul className={style.social}>
                         <li className={style.social__item} >
-                            <a href="https://vk.com/pavelniko">
+                            <a href="https://t.me/pavel5284" target='_blank' rel='noreferrer'>
+                                <TelegramSvgComponent/>
+                            </a>
+                        </li>
+                        <li className={style.social__item} >
+                            <a href="https://vk.com/pavelniko" target='_blank' rel='noreferrer'>
                                 <VkSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
-                            <a href="https://instagram.com/pavel528418">
+                            <a href="https://instagram.com/pavel528418" target='_blank' rel='noreferrer'>
                                 <InstagramSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
-                            <a href="https://github.com/Pavel5284">
+                            <a href="https://github.com/Pavel5284" target='_blank' rel='noreferrer'>
                                 <GitHubSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
-                            <a href="https://www.linkedin.com/in/pavel-cherniakov-pavel528418">
+                            <a href="https://www.linkedin.com/in/pavel-cherniakov-pavel528418" target='_blank' rel='noreferrer'>
                                 <LinkedinSvgComponent/>
                             </a>
                         </li>
