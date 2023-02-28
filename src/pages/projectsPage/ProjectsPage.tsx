@@ -17,7 +17,7 @@ export const ProjectsPage = () => {
                             skills={project.skills}
                             img={project.img}
                             imgBig={project.imgBig}
-                            gitHubLink={project.gitHubLink}/>
+                            gitHubLink={project.gitHubRepoLink}/>
                     })}
                 </ul>
             </div>

@@ -1,6 +1,6 @@
 /*project details*/
 
-.project_details{
+.project_details {
     margin: 0 auto;
     max-width: 865px;
 
@@ -10,9 +10,18 @@
     text-align: center;
 }
 
-.project_details__cover {
-    max-width: 100%;
+.project_details__link {
     margin-bottom: 40px;
+}
+
+.project_details__link:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in;
+}
+
+.project_details__link-cover {
+    max-width: 100%;
+
 
     box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
     border-radius: 10px;

@@ -1,4 +1,6 @@
 import style from './Header.module.css'
+import cv from '../../assets/cv/Cherniakov_Pavel_Frontend_dev.pdf'
+
 
 export const Header = () => {
     return (
@@ -12,7 +14,7 @@ export const Header = () => {
                     <p>with passion for learning and creating.</p>
                 </div>
                 <a className={style.btn}
-                   href="../../../public/Cherniakov_Pavel_Frontend_dev.pdf" download>Download CV</a>
+                   href={cv} download>Download CV</a>
             </div>
         </header>
     )

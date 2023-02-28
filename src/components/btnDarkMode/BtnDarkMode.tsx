@@ -1,7 +1,7 @@
 import style from "./BtnDarkMode.module.css";
 import mainStyle from './../../styles/mainStyles.module.css'
-import sun from "../../img/icons/sun.svg";
-import moon from "../../img/icons/moon.svg";
+import sun from "../../assets/img/icons/sun.svg";
+import moon from "../../assets/img/icons/moon.svg";
 import {useEffect} from "react";
 import {useLocalStorage} from "../../utils/useLocalStorage";
 import { detectDarkMode } from "../../utils/detectDarkMode";

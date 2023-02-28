@@ -16,15 +16,18 @@ export const ProjectPage = () => {
             <div className={mainStyle.container}>
                 <div className={style.project_details}>
                     <h1 className={mainStyle.title_1}>{project!.title}</h1>
+                    <a className={style.project_details__link} href={project!.gitHubPagesLink}>
+                        <img src={project!.imgBig} alt={project!.title} className={style.project_details__linkCover}/>
+                    </a>
 
-                    <img src={project!.imgBig} alt={project!.title} className={style.project_details__cover}/>
+
 
                         <div className={style.project_details__desc}>
                             <p>{project!.skills}</p>
                         </div>
 
-                    {project!.gitHubLink && (
-                        <BtnGitHub link={project!.gitHubLink}/>
+                    {project!.gitHubRepoLink && (
+                        <BtnGitHub link={project!.gitHubRepoLink}/>
                     )}
 
 
