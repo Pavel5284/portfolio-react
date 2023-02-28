@@ -1,7 +1,3 @@
-import vk from "../../img/icons/vk.svg";
-import instagram from "../../img/icons/instagram.svg";
-import github from "../../img/icons/gitHub.svg";
-import linkedin from "../../img/icons/linkedIn.svg";
 import React from "react";
 import style from './Footer.module.css'
 import commonStyles from '../../styles/mainStyles.module.css'
@@ -32,7 +28,7 @@ export const Footer = () => {
                             </a>
                         </li>
                         <li className={style.social__item}>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/pavel-cherniakov-pavel528418">
                                 <LinkedinSvgComponent/>
                             </a>
                         </li>
