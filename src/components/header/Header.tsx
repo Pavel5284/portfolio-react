@@ -12,7 +12,7 @@ export const Header = () => {
                     <p>with passion for learning and creating.</p>
                 </div>
                 <a className={style.btn}
-                   href="./../downloads/Cherniakov_Pavel_Frontend_dev.pdf" download>Download CV</a>
+                   href="../../../public/Cherniakov_Pavel_Frontend_dev.pdf" download>Download CV</a>
             </div>
         </header>
     )
