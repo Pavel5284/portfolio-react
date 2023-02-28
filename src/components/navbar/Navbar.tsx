@@ -13,7 +13,7 @@ export const Navbar = () => {
                 <div className={mainStyle.container}>
                     <div className={style.nav_row}>
                         <NavLink to={'/'} className={style.logo}>
-                            LOGO
+                            <img src={require('../../assets/img/logo.png')} alt="logo"/>
                         </NavLink>
 
                        <BtnDarMode/>

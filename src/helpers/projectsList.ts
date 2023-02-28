@@ -13,7 +13,7 @@ export const projectsList = [
     {
         id: 1,
         title: 'Cards',
-        skills: 'React, TS, Redux, MaterialUI, SCSS',
+        skills: 'React, TS, Redux, Formik, Axios, MaterialUI, SCSS',
         img: project01,
         imgBig: project01Big,
         gitHubPagesLink: 'https://bdodinka.github.io/cards/',
@@ -22,7 +22,7 @@ export const projectsList = [
     {
         id: 2,
         title: 'Todolist',
-        skills: 'React, Redux, TS, Storybook, TDD, RTK, MUI',
+        skills: 'React, Redux, TS, Formik, Axios, Storybook, TDD, RTK, MUI',
         img: project02,
         imgBig: project02Big,
         gitHubPagesLink: 'https://pavel5284.github.io/Todolist',
@@ -31,7 +31,7 @@ export const projectsList = [
     {
         id: 3,
         title: 'Social Network',
-        skills: 'React, Redux, TS, Ant Design',
+        skills: 'React, Redux, TS, Formik, Axios, WebSocket, Ant Design',
         img: project03,
         imgBig: project03Big,
         gitHubPagesLink: 'https://pavel5284.github.io/samurai-way/',
