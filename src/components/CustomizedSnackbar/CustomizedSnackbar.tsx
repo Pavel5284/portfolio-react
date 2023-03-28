@@ -19,11 +19,6 @@ type CustomizedSnackbarPropsType= {
 }
 
 export default function CustomizedSnackbar(props: CustomizedSnackbarPropsType) {
-  /*  const [open, setOpen] = React.useState(false);
-
-    const handleClick = () => {
-        setOpen(true);
-    };*/
 
     const handleClose = (event?: React.SyntheticEvent | Event, reason?: string) => {
         if (reason === 'clickaway') {

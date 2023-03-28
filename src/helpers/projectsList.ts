@@ -12,16 +12,16 @@ import project03Big from '../assets/img/projects/03-big.jpg'
 export const projectsList = [
     {
         id: 1,
-        title: 'Cards',
+        title: 'Quiz-show',
         skills: 'React, TS, Redux, Formik, Axios, MaterialUI, SCSS',
         img: project01,
         imgBig: project01Big,
-        gitHubPagesLink: 'https://bdodinka.github.io/cards/',
-        gitHubRepoLink: 'https://github.com/BDODINKA/cards',
+        gitHubPagesLink: 'https://bdodinka.github.io/quiz-show',
+        gitHubRepoLink: 'https://github.com/BDODINKA/quiz-show',
     },
     {
         id: 2,
-        title: 'Todolist',
+        title: 'Task Manager Desk',
         skills: 'React, Redux, TS, Formik, Axios, Storybook, TDD, RTK, MUI',
         img: project02,
         imgBig: project02Big,
