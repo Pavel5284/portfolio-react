@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.1f4191d1.css",
-    "main.js": "/portfolio-react/static/js/main.d8d35bea.js",
+    "main.js": "/portfolio-react/static/js/main.c5707232.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/Cherniakov_Pavel_Frontend_dev.pdf": "/portfolio-react/static/media/Cherniakov_Pavel_Frontend_dev.733cca2e95dfb7551f6d.pdf",
     "static/media/01-big.jpg": "/portfolio-react/static/media/01-big.efca9f71514acaf198f5.jpg",
@@ -15,11 +15,11 @@
     "static/media/gitHub-black.svg": "/portfolio-react/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
     "index.html": "/portfolio-react/index.html",
     "main.1f4191d1.css.map": "/portfolio-react/static/css/main.1f4191d1.css.map",
-    "main.d8d35bea.js.map": "/portfolio-react/static/js/main.d8d35bea.js.map",
+    "main.c5707232.js.map": "/portfolio-react/static/js/main.c5707232.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f4191d1.css",
-    "static/js/main.d8d35bea.js"
+    "static/js/main.c5707232.js"
   ]
 }
