@@ -1,0 +1,17 @@
+.langBtn {
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid var(--accent);
+    color: var(--header-text);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.langBtn:hover {
+    background-color: var(--accent);
+    //color: var(--light-text);
+}

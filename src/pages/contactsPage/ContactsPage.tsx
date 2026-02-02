@@ -14,8 +14,8 @@ export const ContactsPage = () => {
                             <p>Kaliningrad, Russia</p>
                         </li>
                         <li className={style.content_list__item}>
-                            <h2 className={mainStyle.title_2}>Telegram / WhatsApp</h2>
-                            <p><a href="tel:+79210062556">+79210062556</a></p>
+                            <h2 className={mainStyle.title_2}>Telegram</h2>
+                            <p><a href="https://t.me/Pavel5284">Pavel5284</a></p>
                         </li>
                         <li className={style.content_list__item}>
                             <h2 className={mainStyle.title_2}>Email</h2>

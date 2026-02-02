@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+  "mainPage": {
+    "greeting": "Hi, I'm",
+    "name": "Pavel",
+    "title": "Frontend Developer with 4 years of experience",
+    "details": "Building sophisticated SPAs and interactive web interfaces\nTech stack: React • TypeScript • Next.js",
+    "cta": "Ready to bring your idea to life",
+    "downloadResume": "Download CV",
+    "skillsTitle": "Skills",
+    "frontendLabel": "Frontend"
+  }
+}

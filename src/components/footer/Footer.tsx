@@ -18,7 +18,7 @@ export const Footer = () => {
                                 <TelegramSvgComponent/>
                             </a>
                         </li>
-                        <li className={style.social__item} >
+                      {/*  <li className={style.social__item} >
                             <a href="https://vk.com/pavelniko" target='_blank' rel='noreferrer'>
                                 <VkSvgComponent/>
                             </a>
@@ -27,20 +27,20 @@ export const Footer = () => {
                             <a href="https://instagram.com/pavel528418" target='_blank' rel='noreferrer'>
                                 <InstagramSvgComponent/>
                             </a>
-                        </li>
+                        </li>*/}
                         <li className={style.social__item}>
                             <a href="https://github.com/Pavel5284" target='_blank' rel='noreferrer'>
                                 <GitHubSvgComponent/>
                             </a>
                         </li>
                         <li className={style.social__item}>
-                            <a href="https://www.linkedin.com/in/pavel-cherniakov-pavel528418" target='_blank' rel='noreferrer'>
+                            <a href="https://www.linkedin.com/in/pavel-vladimirov-pavel528418" target='_blank' rel='noreferrer'>
                                 <LinkedinSvgComponent/>
                             </a>
                         </li>
                     </ul>
                     <div className={style.copyright}>
-                        <p>2022 Pavel5284.github.io</p>
+                        <p>2022 Pavel5284</p>
                     </div>
                 </div>
 
